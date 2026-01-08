@@ -3,13 +3,13 @@
 ![ConvoHub Preview](https://github.com/asnaatif/ConvoHub/blob/main/ConvoHub.png?raw=true)
 
 ## Table of Contents
-1. Overview  
-2. Key Features  
-3. Tech Stack  
-4. Architecture & WebSockets  
-5. Manual Setup  
-6. Configuration  
-7. Project Structure  
+1.[Overview](#-overview)
+2.[Key Features](#-key-features)
+3.[Tech Stack](#-tech-stack)
+4.[Architecture and WebSockets](#-architecture-and-websockets)  
+5.[Manual Setup](#-manual-setup)
+6.[Configuration](#-configuration)  
+7.[Project Structure](#-project-structure)  
 
 ---
 
