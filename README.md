@@ -55,58 +55,73 @@ Django Channels is used on the backend to manage WebSocket connections, enabling
 - PostgreSQL  
 - Git  
 
+Clone the repositories and proceed with the following steps:
 ### Backend Setup
 
-1. Navigate to the backend directory  
+1. Navigate to the backend directory
+```bash
    cd convohubBackend
-
+```
 2. Install Python (3.12 recommended)  
+   ```bash
    brew install python@3.12
-
+   ```
 3. Create and activate a virtual environment  
-   python3.12 -m venv env  
+  ```bash python3.12 -m venv env  
    source env/bin/activate
+```
 
 4. Install backend dependencies  
+   ```bash
    pip install -r requirements.txt
-
+   ```
 5. Create the PostgreSQL database  
+```bash
    createdb convohub  
-
+```
    Or using psql:  
+   ```bash
    psql -U postgres -c "CREATE DATABASE convohub;"
-
+   ```
 6. Import the database schema  
+```bash
    psql -h localhost -p 5432 -U postgres -d convohub -f convohub.sql
-
-7. Navigate into the backend project folder  
+```
+7. Navigate into the backend project folder
+```bash
    cd backend
-
-8. Create and activate another virtual environment (if required)  
+```
+8. Create and activate another virtual environment (if required)
+```bash
    python3.12 -m venv env  
    source env/bin/activate
-
-9. Apply migrations and start the development server  
+```
+9. Apply migrations and start the development server
+```bash
    python manage.py makemigrations  
    python manage.py migrate  
    python manage.py runserver
-
+```
 ---
 
 ### Frontend Setup
 
-1. Navigate to the frontend directory  
+1. Navigate to the frontend directory
+```bash 
    cd ../convohubFrontend/ConvoHub
-
-2. Install frontend dependencies  
+```
+2. Install frontend dependencies
+ ```bash
    npm install
-
-3. Run the development server  
+```
+3. Run the development server
+```bash
    npm run dev
-
-4. If any vulnerabilities are reported  
+```
+4. If any vulnerabilities are reported
+```bash
    npm audit fix
-
+```
 ---
 
 ## Configuration (.env)
