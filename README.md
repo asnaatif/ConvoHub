@@ -3,13 +3,14 @@
 ![ConvoHub Preview](https://github.com/asnaatif/ConvoHub/blob/main/ConvoHub.png?raw=true)
 
 ## Table of Contents
-1. [Overview](#-overview)
-2. [Key Features](#-key-features)
-3. [Tech Stack](#-tech-stack)
-4. [Architecture and WebSockets](#-architecture-and-websockets)  
-5. [Manual Setup](#-manual-setup)
-6. [Configuration](#-configuration)  
-7. [Project Structure](#-project-structure)  
+1. [Overview](#overview)
+2. [Key Features](#key-features)
+3. [Tech Stack](#tech-stack)
+4. [Architecture and WebSockets](#architecture-and-websockets)
+5. [Design](#design)
+6. [Manual Setup](#manual-setup)
+7. [Configuration](#configuration)  
+8. [Project Structure](#project-structure)  
 
 ---
 
@@ -46,7 +47,16 @@ High-level architecture:
 Django Channels is used on the backend to manage WebSocket connections, enabling real-time messaging alongside traditional HTTP-based APIs.
 
 ---
+## Design
 
+The interface for ConvoHub was planned and visualized in Figma
+to ensure clear user flows, layout consistency, and intuitive interactions prior to
+development.
+
+📄 **View the Figma design (PDF):**
+[Convohub Figma Design.pdf](Convohub%20Figma%20Design.pdf)
+
+---
 ## Manual Setup
 
 ### Prerequisites
@@ -77,11 +87,8 @@ Clone the repositories and proceed with the following steps:
 ```
 5. Create the PostgreSQL database  
 ```bash
-   createdb convohub  
-```
-   Or using psql:  
-```bash
-   psql -U postgres -c "CREATE DATABASE convohub;"
+   createdb convohub
+   psql -U postgres -c "CREATE DATABASE convohub;" //using psql
 ```
 6. Import the database schema  
 ```bash
