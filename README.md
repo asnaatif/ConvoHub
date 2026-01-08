@@ -8,7 +8,7 @@
 3. [Tech Stack](#-tech-stack)
 4. [Project Structure](#-project-structure)
 5. [Design](#-design)
-6. [Setup, Run and Configuration](#setup-run-and-configuration)
+6. [Setup and Run](#setup-and-run)
 
 
 
@@ -71,7 +71,7 @@ development.
 [Convohub Figma Design.pdf](Convohub%20Figma%20Design.pdf)
 
 ---
-## ⚙️ Setup, Run and Configuration
+## ⚙️ Setup and Run
 
 
 Follow the steps below to get ConvoHub running locally. All commands are listed exactly as used.
