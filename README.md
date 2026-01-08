@@ -18,13 +18,14 @@ reliable, course-specific information.
 
 ---
 ## ✨ Key Features
--Join course-based discussion groups
--Share academic resources, tips, and study strategies
--Provide and view instructor feedback and ratings
--Communicate via real-time chat using WebSockets
--Create and join public or private chat groups
--Customize their student profiles
+- Join course-based discussion groups
+- Share academic resources, tips, and study strategies
+- Provide and view instructor feedback and ratings
+- Communicate via real-time chat using WebSockets
+- Create and join public or private chat groups
+- Customize student profiles
 ---
+
 
 ## 🛠 Tech Stack
 
