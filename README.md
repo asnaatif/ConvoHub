@@ -63,26 +63,26 @@ Clone the repositories and proceed with the following steps:
    cd convohubBackend
 ```
 2. Install Python (3.12 recommended)  
-   ```bash
+```bash
    brew install python@3.12
-   ```
+```
 3. Create and activate a virtual environment  
-  ```bash python3.12 -m venv env  
+```bash python3.12 -m venv env  
    source env/bin/activate
 ```
 
 4. Install backend dependencies  
-   ```bash
+```bash
    pip install -r requirements.txt
-   ```
+```
 5. Create the PostgreSQL database  
 ```bash
    createdb convohub  
 ```
    Or using psql:  
-   ```bash
+```bash
    psql -U postgres -c "CREATE DATABASE convohub;"
-   ```
+```
 6. Import the database schema  
 ```bash
    psql -h localhost -p 5432 -U postgres -d convohub -f convohub.sql
@@ -111,7 +111,7 @@ Clone the repositories and proceed with the following steps:
    cd ../convohubFrontend/ConvoHub
 ```
 2. Install frontend dependencies
- ```bash
+```bash
    npm install
 ```
 3. Run the development server
