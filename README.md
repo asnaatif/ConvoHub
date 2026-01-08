@@ -8,7 +8,7 @@
 3. [Tech Stack](#-tech-stack)
 4. [Project Structure](#-project-structure)
 5. [Design](#-design)
-6. [Setup & Run & Configuration](#-setup--run--configuration)
+6. [Setup & Run & Configuration](#-setup-&-run-&-configuration)
 
 ## 📌 Overview
 
