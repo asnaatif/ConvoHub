@@ -121,9 +121,13 @@ Ensure Django is configured to load environment variables correctly.
 ---
 
 ## Project Structure
-> ConvoHub/  
-> ├── convohubBackend/             # Django backend  
-> ├── convohubFrontend/            # React frontend  
-> ├── ConvoHub.png                 # Preview image  
-> ├── Convohub Figma Design.pdf    # Figma design export  
-> └── README.md
+```bash
+ConvoHub/
+├── convohubBackend/             # Django backend
+│   └── ...
+├── convohubFrontend/            # React frontend
+│   └── ...
+├── ConvoHub.png/                # ConvoHub Preview
+├── ConvoHub Figma Design.pdf/   # Figma design
+├── README.md
+```
