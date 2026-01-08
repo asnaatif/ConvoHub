@@ -39,7 +39,7 @@ ConvoHub is a web-based platform designed for university students to collaborate
 
 ---
 
-## Architecture & WebSockets
+## Architecture and WebSockets
 High-level architecture:
 - Frontend ↔ Backend: REST APIs for courses, posts, users, and resources  
 - Frontend ↔ Backend: WebSocket connections for real-time chat and presence updates  
@@ -131,7 +131,7 @@ Clone the repositories and proceed with the following steps:
 ```
 ---
 
-## Configuration (.env)
+## Configuration 
 Create a .env file inside convohubBackend/ (or project root, depending on settings) with the following variables:
 
 DATABASE_URL=postgres://postgres:password@localhost:5432/convohub  
