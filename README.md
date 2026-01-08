@@ -2,6 +2,14 @@
 
 ![ConvoHub Preview](https://github.com/asnaatif/ConvoHub/blob/main/ConvoHub.png?raw=true)
 
+## 📑 Table of Contents
+1. [Overview](#-overview)
+2. [Key Features](#-key-features)
+3. [Tech Stack](#-tech-stack)
+4. [Project Structure](#-project-structure)
+5. [Design](#-design)
+6. [Setup & Run & Configuration](#-setup--run--configuration)
+
 ## 📌 Overview
 
 **ConvoHub** is a web-based platform built for university students to support
@@ -58,7 +66,7 @@ to ensure clear user flows, layout consistency, and intuitive interactions prior
 development.
 
 📄 **View the Figma design (PDF):**
-https://github.com/asnaatif/ConvoHub/blob/main/Convohub%20Figma%20Design.pdf
+[Convohub Figma Design.pdf](Convohub%20Figma%20Design.pdf)
 
 ---
 ## ⚙️ Setup & Run & Configuration
